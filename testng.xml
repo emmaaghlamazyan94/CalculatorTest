@@ -3,15 +3,21 @@
     <test name="test">
         <groups>
             <run>
-                <include name="doubleDivision"/>
-                <include name="longSum"/>
+                <include name="double"/>
+                <include name="long"/>
             </run>
         </groups>
         <classes>
-            <class name="UnitTest.SumTest"/>
-            <class name="UnitTest.BaseTest"/>
-            <class name="UnitTest.SubTest"/>
-            <class name="UnitTest.DivTest"/>
+            <class name="UnitTest.Double.CosDouble"/>
+            <class name="UnitTest.Double.CtgDouble"/>
+            <class name="UnitTest.Double.DivDouble"/>
+            <class name="UnitTest.Double.MultDouble"/>
+            <class name="UnitTest.Double.PowDouble"/>
+            <class name="UnitTest.Double.SinDouble"/>
+            <class name="UnitTest.Double.SqrtDouble"/>
+            <class name="UnitTest.Double.SubDouble"/>
+            <class name="UnitTest.Double.SumDouble"/>
+            <class name="UnitTest.Double.TgDouble"/>
         </classes>
     </test>
 </suite>
