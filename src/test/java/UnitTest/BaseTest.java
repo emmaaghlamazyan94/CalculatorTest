@@ -7,12 +7,12 @@ import org.testng.annotations.BeforeClass;
 public class BaseTest {
     protected Calculator calculator;
 
-    @BeforeClass(groups = {"longSubtraction", "longSum", "doubleDivision"})
+    @BeforeClass(groups = {"long", "double", "doubleDivision"})
     public void setUp() {
         calculator = new Calculator();
     }
 
-    @AfterClass(groups = {"longCalculation", "longSum", "doubleDivision"})
+    @AfterClass(groups = {"long", "double", "doubleDivision"})
     public void tearDown() {
         calculator = null;
     }
